@@ -1,0 +1,23 @@
+States  
+ 0         8.84E-14       0.75
+ 0         8.84E-14       0.1
+ 0         8.84E-14       0.05
+-1.23E-12  1.99E-13       0.0
+ 0         8.84E-14       0.1
+
+Noise     
+NoiseControl 1
+StandardDeviation 2.05E-13
+ARCoefficients	5.76E-001  -5.47E-001  4.31E-001  -2.02E-001
+
+TransitionRate 	
+-1000	1000     0     0    0 
+ 200   -1450    1000   0    250		
+  0     200    -1650  1200  250 
+  0     0       300  -700   400
+  0     40      40    50   -130 
+
+Simulator
+NumberOfSweeps	  100
+PointsInSweeps	 20000
+SamplingInterval 0.00004
